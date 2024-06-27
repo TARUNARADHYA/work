@@ -1,0 +1,57 @@
+/* RegistrationForm.css */
+
+
+.background-container {
+   
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+    background-position: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: slideIn 1s ease-in-out forwards;
+    padding:0px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; 
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+}
+
+.container-class {
+    color: aqua;
+}
+
+.h2 {
+    text-align: center;
+    color: rgb(245, 0, 0); 
+}
+
+
+Form.Group {
+    margin-bottom: 15px;
+}
+
+.action-container {
+    text-align: center;
+}
+
+Button {
+    margin-top: 10px;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

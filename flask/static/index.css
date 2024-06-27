@@ -1,0 +1,102 @@
+index.css
+
+  
+  .header {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  .main-content {
+    background-color: rgba(255, 255, 255,0.1);
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .description-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .action-container {
+    text-align: center;
+  }
+  
+  .welcome-description {
+    padding-bottom: 10px;
+  }
+  
+  .how-it-works-title {
+    text-align: center;
+  }
+  
+  .how-it-works-description {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .how-it-works-steps {
+    list-style-type: none;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .list-group-item:hover {
+    background-color: #007bff;
+    color: #fff; 
+    cursor: pointer;
+    display:flex;
+  }
+  
+  h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .bi {
+    margin: 0 5px;
+     font-size: 1.5rem; 
+     color:white; 
+  }
+  
+  .bi:hover {
+    color: #161616; 
+  }
+  
+  .navbar-custom:hover {
+    background-color: #007bff;
+    color: #141414;
+  } 
+    
+  .brand-custom:hover {
+    background-color: #007bff;
+    color: #ffff;
+  } 
+  
+  .Nav {
+    text-align: right;
+  }
+  
+  .Nav.Link {
+    margin-right: 10px; 
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    justify-content:right;
+}
+

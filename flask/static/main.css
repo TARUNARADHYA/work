@@ -1,0 +1,53 @@
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #777;
+  }
+
+  
+  h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .bi {
+    margin: 0 5px;
+     font-size: 1.5rem; 
+     color:white; 
+  }
+  
+  .bi:hover {
+    color: #161616; 
+  }
+
+body, html {
+    height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-content {
+    flex: 1;
+    overflow-y: auto; 
+}
+
+footer {
+    flex-shrink: 0; 
+}
+
+
